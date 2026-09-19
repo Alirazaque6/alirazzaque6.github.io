@@ -1,48 +1,92 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Royal Taste Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ali Razzaque | Web Developer</title>
+
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;color:#222}
-header{background:#111;color:#fff;padding:18px 20px;position:sticky;top:0}
-nav{max-width:1050px;margin:auto;display:flex;justify-content:space-between;align-items:center}
-.logo{font-size:24px;font-weight:bold}nav a{color:#fff;text-decoration:none;margin-left:16px}
-.hero{text-align:center;padding:80px 20px;background:#f5f1e8}.hero h1{font-size:44px;margin:10px}
-.hero p{font-size:20px}.btn{display:inline-block;background:#111;color:#fff;padding:13px 24px;border-radius:8px;text-decoration:none;margin-top:12px}
-section{max-width:1050px;margin:auto;padding:55px 20px}h2{text-align:center;font-size:32px}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
-.card{background:#f6f6f6;padding:24px;border-radius:12px;text-align:center}.price{font-weight:bold;font-size:20px}
-.contact{text-align:center;background:#f5f1e8;max-width:none}footer{text-align:center;background:#111;color:#fff;padding:22px}
-@media(max-width:600px){nav{display:block;text-align:center}.logo{margin-bottom:12px}nav a{margin:0 7px}.hero h1{font-size:34px}}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    background: #ffffff;
+    color: #111111;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.profile-img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 25px auto;
+    display: block;
+    border: 5px solid #f0f0f0;
+}
+
+.contact-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #19c995;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 40px;
+}
 </style>
 </head>
+
 <body>
-<header><nav><div class="logo">Royal Taste</div>
-<div><a href="#home">Home</a><a href="#menu">Menu</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav></header>
 
-<div class="hero" id="home">
-<h1>Royal Taste Restaurant</h1>
-<p>Delicious food • Fresh ingredients • Family atmosphere</p>
-<a class="btn" href="#contact">Order / Contact Us</a>
-</div>
+<h1>Welcome to Ali's Website</h1>
 
-<section id="menu"><h2>Our Menu</h2><div class="cards">
-<div class="card"><h3>Chicken Biryani</h3><p>Traditional aromatic biryani.</p><div class="price">Rs. 350</div></div>
-<div class="card"><h3>Chicken Karahi</h3><p>Fresh chicken with special spices.</p><div class="price">Rs. 900</div></div>
-<div class="card"><h3>Chicken Burger</h3><p>Crispy chicken with fresh salad.</p><div class="price">Rs. 450</div></div>
-<div class="card"><h3>Fresh Juice</h3><p>Fresh seasonal fruit juice.</p><div class="price">Rs. 200</div></div>
-</div></section>
+<img src="ali.jpg"
+     alt="Ali's Profile Picture"
+     class="profile-img">
 
-<section id="about"><h2>About Us</h2>
-<p style="text-align:center;font-size:18px">Royal Taste is a demo restaurant website. Replace this text with your client's real business information.</p>
-</section>
+<p>Hello! My name is Ali.</p>
 
-<section id="contact" class="contact"><h2>Contact Us</h2>
-<p>📍 Main Market, Karachi</p><p>📞 +92 300 1234567</p><p>✉️ royaltaste@example.com</p>
-<a class="btn" href="https://wa.me/923001234567">WhatsApp Us</a></section>
+<p>I am a Software Engineering Student and Web Developer.</p>
 
-<footer>© 2026 Royal Taste Restaurant — Demo Website</footer>
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=alirazzaque159@gmail.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="contact-btn">
+   Contact Me
+</a>
+
+<h2>About Me</h2>
+
+<p>
+I am Ali. I am learning Software Engineering and Web Development.
+</p>
+
+<h2>My Skills</h2>
+
+<p>HTML</p>
+<p>CSS</p>
+<p>Web Development</p>
+
 </body>
 </html>
